@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 18px;
+    background-color: black;
+  }
+
+  .body {
+    background-color: black;
+  }
+ 
+header {
+height: 100px;
+width: 100%;
+background-color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 30px 0 30px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+  }
+
+  
+a {
+    text-decoration: none;
+  }
+  
+  li a {
+    color: black;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+
+  .bannerSJC {
+      background-image: url(/img.jpg/PonteSJC.jpg);
+      color: white;
+      background-repeat: no-repeat;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      font-size: 16px;
+      padding: 20px;
+  }
+
+  .curiosidades {
+    width: 100%;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .tituloCuriosidades {
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  .bannerCuriosidades {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+
+  .card {
+    width: 30%;
+    max-width: 265px;
+    height: 350px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding: 15px;
+  }
+
+  .tituloCard {
+     text-align: center;     
+  }
+
+  .containerCuriosidades {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 20px;
+  }
+
+  .card_conteudo {
+    text-align: center;
+    margin: 0px;
+  }
+
+  .titulocard {
+    display: block;
+    font-size: 1.30em;
+    margin-block-start: 1em;
+    margin-block-end: 0.35em;
+  }
+
+  .containerVideo {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+
+  }
+
+  .tituloVideo {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.videoSJC {
+  width: 80%;
+  height: 400px;
+  display: block;
+  margin: auto;
+  background-repeat: no-repeat;
+  gap: 30px;
+  padding: 20px;
+}
+
+.footer {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  
+}
